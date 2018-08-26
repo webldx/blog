@@ -1,10 +1,17 @@
 1.初始化项目
     1.创建项目更目录
-    2.创建了public 文件夹  将静态资源复制到 public 文件夹中
-    3.创建了views 目录  放置魔板文件
-    4.初始化项目工程文件(项目描述文件) JSON对象  npm init -y  yes(全部使用默认的参数)
+         2.创建了public 文件夹  将静态资源复制到 public 文件夹中
+        3.创建了views 目录  放置魔板文件
+        4.初始化项目工程文件(项目描述文件) JSON对象  npm init -y  yes(全部使用默认的参数)
         会在项目根目录下生成一个叫 package.json 的文件
-    5.建立项目的主文件 (创建web服务器)
-    6.下载 express 框架  npm install express --save
+    2.建立项目的主文件 (创建web服务器)
+    3.下载 express 框架  npm install express --save
         --save 记录了所依赖的那些第三方模块(记录在项目描述文件)
-    7.利用 express 创建web服务器
+    4.利用 express 创建web服务器
+    5.初始化本地仓库
+        1. git init 在项目根目录下初始化本地仓库
+        2. 增加git忽略清单  目的是将node_modules 文件加下忽略掉不让git管理
+        3.git add . 添加到暂存区
+        4.git commit -m 添加到本地仓库
+        5.登录GitHub创建远程仓库
+        6.将本地仓库提交到远程仓库
